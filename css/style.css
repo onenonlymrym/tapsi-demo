@@ -1011,7 +1011,7 @@ textarea {
 }
 
 .block {
-    padding: 6rem 2rem ;
+    padding: 6rem 2rem;
 }
 
 .block-heading {
@@ -1022,12 +1022,18 @@ textarea {
 /* TRAVELLING SECTION */
 
 .travel {
-    border: 2px solid #ccc;
-    border-radius: 10px;
+
     margin-bottom: 5rem;
 }
 
+.travel__wrapper {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 3rem 2rem;
+}
+
 .travel__gifts {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
