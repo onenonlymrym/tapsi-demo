@@ -1,0 +1,183 @@
+/* CONTACT US */
+.contact-us{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 3rem;
+    padding: 1.5rem;
+    /* max-width: 600px; */
+}
+.contact-us__addresses{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+.contact-us__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us__title{
+    text-align: center;
+}
+
+.contact-us__description{
+    text-align: center;
+}
+
+.contact-us__social-media{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-us__icons{
+    padding: 1rem;
+    /* margin: 1rem; */
+}
+
+.contact-us__connect{
+    text-align: left;
+    font-size: 1.6rem ;
+    
+}
+
+.contact-us__location::before{
+    content: " ";
+    background: url("assets/images/iconly-icon-export-1760558930.svg") no-repeat;
+    padding: 5rem;
+
+    background-position: right center;
+
+}
+.contact-us__mobile::after{
+    content: " ";
+    background: url("assets/images/iconly-icon-export-1760559007.svg") no-repeat;
+    padding: 5rem;
+    background-position: right center;
+}
+
+.contact-us__email::before{
+    content: " ";
+    background: url("assets/images/iconly-icon-export-1760559037.svg") no-repeat;
+    padding: 5rem;
+    background-position: right center;
+}
+.contact-us__messages{
+    margin-top: 2.5rem;
+    padding: 2.5rem;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+}
+.contact-us__comments{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+/* travel */
+
+.travelling-gifts{
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    display: none;
+    padding: 10rem;
+    
+}
+
+.travelling-gifts h2{
+    position: relative;
+    top: 0;
+    padding-bottom: 10rem;
+}
+
+.travelling-gifts__panel{
+    display: grid;
+    gap: 20rem;
+    align-items: center;
+    margin-top: 20rem;
+    
+
+}
+
+.travelling-gifts__items{
+    padding: 1.5rem 3rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+    width: 110%;
+    
+    
+    
+}
+
+.travelling-gifts__items::before {
+    content: '';
+    position: absolute;
+    top: -90%; 
+    left: 50%;
+    transform: translateX(-50%);
+    /* width: 100%; */
+    height: 200px;
+    background: url("assets/images/travell.webp");
+    aspect-ratio: 4/3;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    z-index: -1;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.travelling-gifts__details{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.3rem;
+    padding-bottom:1rem ;
+}
+
+.travelling-gifts__details .badge{
+    color: var(--color-white);
+    padding: 0rem 1.2rem;
+}
+
+.travelling-gifts__details p{
+    color: var(--color-body);
+}
+
+.travelling-gifts__reactions{
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.reactions-feedback{
+    display: inline-flex;
+    color: rgba(202, 202, 202, 1);
+    gap: 0.5rem;
+}
+
+@media screen and (min-width:1024px) {
+    .travelling-gifts{
+        display: block;
+    }
+
+    .travelling-gifts__panel{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10rem;
+
+}
+
+
+
+}

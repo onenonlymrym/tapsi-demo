@@ -1,0 +1,32 @@
+<svg width="0" height="0" class="hidden">
+  <symbol role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="facebook">
+    <title>Facebook</title>
+    <path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" id="linkedin">
+    <path d="M160 96C124.7 96 96 124.7 96 160L96 480C96 515.3 124.7 544 160 544L480 544C515.3 544 544 515.3 544 480L544 160C544 124.7 515.3 96 480 96L160 96zM165 266.2L231.5 266.2L231.5 480L165 480L165 266.2zM236.7 198.5C236.7 219.8 219.5 237 198.2 237C176.9 237 159.7 219.8 159.7 198.5C159.7 177.2 176.9 160 198.2 160C219.5 160 236.7 177.2 236.7 198.5zM413.9 480L413.9 376C413.9 351.2 413.4 319.3 379.4 319.3C344.8 319.3 339.5 346.3 339.5 374.2L339.5 480L273.1 480L273.1 266.2L336.8 266.2L336.8 295.4L337.7 295.4C346.6 278.6 368.3 260.9 400.6 260.9C467.8 260.9 480.3 305.2 480.3 362.8L480.3 480L413.9 480z"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="X">
+    <path d="M9.59954 4.802C9.41841 4.53493 9.11668 4.375 8.79398 4.375H5.14783C4.83544 4.375 4.65025 4.72438 4.8256 4.9829L14.4897 19.2312C14.6708 19.4983 14.9725 19.6582 15.2952 19.6582H18.9414C19.2538 19.6582 19.439 19.3088 19.2636 19.0503L9.59954 4.802Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M10.4499 13.4333L4.66895 20" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18.7571 4L13.3203 10.1756" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="call">
+    <path d="M8.20049 16.195C1.3025 9.29622 2.28338 6.13715 3.01055 5.11915C3.10396 4.95462 5.40647 1.50788 7.87459 3.53006C14.0008 8.57545 6.2451 7.86211 11.3894 13.0073" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path opacity="0.4" d="M8.20044 16.1951C15.0995 23.0938 18.2597 22.113 19.2778 21.3848C19.4412 21.2925 22.8881 18.99 20.8658 16.5209C15.8213 10.396 16.5347 18.1514 11.3894 13.0073" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="email">
+    <path d="M18.2039 8.85107L12.4399 13.5351L6.67493 8.85107" stroke="#000000" stroke-width="1.5" stroke-linecap="square"></path>
+    <path d="M2.40002 3V21H22.4V3H2.40002Z" stroke="#000000" stroke-width="1.5" stroke-linecap="square"></path>
+  </symbol>
+  <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="location">
+    <title>Iconly/Light/Location</title>
+    <g id="Iconly/Light/Location" stroke="none" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+      <g id="Location" transform="translate(4.500000, 3.000000)" stroke="#000000" stroke-width="1.5">
+        <path d="M10,7.50050782 C10,6.11923624 8.88076376,5 7.50050782,5 C6.11923624,5 5,6.11923624 5,7.50050782 C5,8.88076376 6.11923624,10 7.50050782,10 C8.88076376,10 10,8.88076376 10,7.50050782 Z" id="Stroke-1"></path>
+        <path d="M7.49951162,18 C6.30103536,18 0,12.8983747 0,7.5632901 C0,3.38663602 3.357101,0 7.49951162,0 C11.6419223,0 15,3.38663602 15,7.5632901 C15,12.8983747 8.69798789,18 7.49951162,18 Z" id="Stroke-3"></path>
+      </g>
+    </g>
+  </symbol>
+</svg>
+
