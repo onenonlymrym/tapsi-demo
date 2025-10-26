@@ -285,7 +285,7 @@ h2 {
 .feature {
     display: grid;
     justify-content: center;
-    padding-bottom: 5rem;
+    padding-bottom: 2.5rem;
     gap: 0rem 5rem;
 }
 
@@ -414,6 +414,7 @@ h2 {
     background-color: #f6f6f6;
     border-radius: 100%;
     cursor: pointer;
+    flex-shrink: 0;
 }
 
 .contact-us__icons .icon-holder {
@@ -425,6 +426,11 @@ h2 {
 .icon-social {
     display: flex;
 }
+
+/* .icon-holder{
+    display: flex;
+    gap: 0.5rem;
+} */
 
 .icon-holder__lable {
     margin-left: 1.5rem;
@@ -1005,7 +1011,7 @@ textarea {
 }
 
 .block {
-    padding: 6rem 2rem;
+    padding: 6rem 2rem ;
 }
 
 .block-heading {
