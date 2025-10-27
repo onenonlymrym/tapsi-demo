@@ -30,6 +30,7 @@ body {
     color: var(--color-body);
     font-size: 1.4rem;
     line-height: 2.9rem;
+      overflow-x: hidden;
     /* 14px */
 }
 
@@ -487,7 +488,7 @@ h2 {
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-    padding: 1rem;
+    padding: 3rem 1.5rem;
 
 }
 
@@ -665,6 +666,7 @@ textarea {
 .nav.nav__expanded .nav__list {
     max-height: 100vh;
     opacity: 1;
+    
 }
 
 
