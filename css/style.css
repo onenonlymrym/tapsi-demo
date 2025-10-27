@@ -30,7 +30,7 @@ body {
     color: var(--color-body);
     font-size: 1.4rem;
     line-height: 2.9rem;
-      overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 h1,
@@ -665,7 +665,7 @@ textarea {
 .nav.nav__expanded .nav__list {
     max-height: 100vh;
     opacity: 1;
-    
+
 }
 
 
@@ -1166,7 +1166,7 @@ textarea {
 .accordion__wrapper {
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -1285,4 +1285,96 @@ textarea {
     color: var(--color-primary);
     cursor: pointer;
     font-size: 20px;
+}
+
+
+
+/* SELECT */
+
+.select-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 3rem 2rem;
+
+}
+
+.select-wrapper h2 {
+    font-size: 3rem;
+}
+
+.select-desc {
+    font-size: 1.2rem;
+    color: #ccc;
+    text-align: center;
+}
+
+.select-type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* padding: 2rem; */
+}
+
+.select-control {
+    /* margin: 2rem; */
+    flex-grow: 1;
+}
+
+.select-control:not(:last-of-type) {
+    margin-left: 2rem;
+}
+
+.select-control input[type="radio"] {
+    display: none;
+}
+
+.select-control label {
+    cursor: pointer;
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 32px;
+    padding: 1rem 2rem;
+    display: block;
+    text-align: center;
+    position: relative;
+    transition: all 0.25 ease-in-out;
+    padding-right: 5rem;
+}
+
+.select-control label::before {
+    content: " ";
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 0 0 2px #ccc;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    right: 2.5rem;
+    transform: translateY(-50%);
+    border: 3px solid var(--color-white);
+    transition: all 0.25 ease-in-out;
+}
+
+
+
+.select-control input[type="radio"]:checked+label {
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+}
+
+.select-control input[type="radio"]:checked+label::before {
+    box-shadow: 0 0 0 2px var(--color-primary);
+
+    background-color: var(--color-primary);
+
+}
+
+.select-wrapper .btn {
+    width: 100%;
 }
